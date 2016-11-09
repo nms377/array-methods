@@ -67,3 +67,13 @@ console.log(gemBox);
 upToTen.splice(2, 0, 3,4,5,6,7,8);
 
 console.log(upToTen);
+
+brownOnly.splice(1, 6, 'brown', 'brown', 'brown', 'brown');
+
+console.log(brownOnly);
+
+orderedValues.unshift(1,2,3);
+
+var orderedValuesNewLength = orderedValues.length;
+
+console.log(orderedValues, orderedValuesNewLength);
