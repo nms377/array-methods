@@ -16,3 +16,54 @@ var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
+
+var nameArray = [];
+
+nameArray.push('Coco','Sandry');
+
+console.log(nameArray);
+
+genericNumberArray.push(6,7,8,9,10);
+
+console.log(genericNumberArray);
+
+colors.pop('Charlie');
+
+var popResult = 'Charlie';
+
+console.log(colors, popResult);
+
+scrambledWords.reverse();
+
+phoneNumber.reverse();
+
+console.log(scrambledWords, phoneNumber);
+
+orderQueue.shift();
+
+nextOrder = {takeOut:'Ice Cream'};
+
+console.log(orderQueue, nextOrder);
+
+mixedNums.sort();
+
+console.log(mixedNums);
+
+mixedWords.sort();
+
+console.log(mixedWords);
+
+fruitCollection.splice(1, 3);
+
+var notFruit = ['Scissors', 'Pug', 'Lady Bug'];
+
+console.log(fruitCollection, notFruit);
+
+gemBox.splice(5, 2);
+gemBox.splice(6,4);
+
+console.log(gemBox);
+
+upToTen.splice(2, 0, 3,4,5,6,7,8);
+
+console.log(upToTen);
