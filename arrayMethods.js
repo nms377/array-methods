@@ -95,3 +95,15 @@ console.log(sentence);
 var myFruits = fruitCollection.join(' + ');
 
 console.log(myFruits);
+
+var favoriteFriends = friends.slice(1,3);
+
+console.log(favoriteFriends);
+
+var owesMoney = friends.slice(3, 6);
+
+console.log(owesMoney);
+
+var monthNameString = monthNames.toString();
+
+console.log(monthNameString);
