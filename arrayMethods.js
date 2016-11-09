@@ -77,3 +77,21 @@ orderedValues.unshift(1,2,3);
 var orderedValuesNewLength = orderedValues.length;
 
 console.log(orderedValues, orderedValuesNewLength);
+
+var randomThingsArray = genericNumberArray.concat(colors);
+
+console.log(randomThingsArray);
+
+myOrders = [{takeOut: 'whiskey'}, {takeOut: 'more whiskey'}];
+
+var updatedOrders = orderQueue.concat(myOrders);
+
+console.log(updatedOrders);
+
+var sentence = scrambledWords.join(' ');
+
+console.log(sentence);
+
+var myFruits = fruitCollection.join(' + ');
+
+console.log(myFruits);
